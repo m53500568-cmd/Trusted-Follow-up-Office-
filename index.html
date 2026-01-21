@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>هاني بن عبدالله | خدمات تصاريح الزواج والمعاملات الرسمية</title>
+
+<meta name="description" content="هاني بن عبدالله – مكتب خدمات متخصص في تصاريح الزواج، التجنيس، المعاملات الحكومية، والاستشارات النظامية. تواصل واتساب مباشر.">
+<meta name="keywords" content="تصاريح زواج, تصريح زواج سعودي, تجنيس, معاملات حكومية, مكتب خدمات, هاني بن عبدالله">
+<meta name="author" content="هاني بن عبدالله">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="هاني بن عبدالله | خدمات ومعاملات رسمية">
+<meta property="og:description" content="إنجاز تصاريح الزواج والتجنيس والمعاملات الرسمية بسرعة واحترافية">
+<meta property="og:type" content="website">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Cairo',sans-serif}
+body{background:#f4f6f5;color:#222;line-height:1.9;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;}
+img{-webkit-user-drag: none; user-drag: none; pointer-events: none;}
+
+/* HEADER */
+header{
+background:#0f3d2e;
+color:#fff;
+padding:18px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:999;
+}
+header h1{font-size:22px;font-weight:800}
+header a{
+background:#25D366;
+color:#fff;
+padding:12px 22px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold
+}
+
+/* HERO */
+.hero{height:95vh;position:relative;overflow:hidden}
+.hero img{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
+animation:hero 18s infinite;
+}
+.hero img:nth-child(2){animation-delay:6s}
+.hero img:nth-child(3){animation-delay:12s}
+
+.hero::after{
+content:'';
+position:absolute;
+top:0;left:0;
+width:100%;height:100%;
+background:rgba(0,0,0,.65);
+}
+
+@keyframes hero{
+0%{opacity:0}
+10%{opacity:1}
+30%{opacity:1}
+40%{opacity:0}
+100%{opacity:0}
+}
+
+.hero-content{
+position:relative;
+z-index:2;
+height:100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:#fff;
+padding:20px;
+}
+.hero-content h2{font-size:48px;margin-bottom:20px}
+.hero-content p{font-size:22px;max-width:900px;margin-bottom:30px}
+.hero-content a{
+background:#25D366;
+padding:18px 42px;
+border-radius:45px;
+color:#fff;
+font-size:20px;
+font-weight:bold;
+text-decoration:none
+}
+
+/* SECTIONS */
+section{padding:85px 20px;max-width:1300px;margin:auto}
+section h3{
+text-align:center;
+font-size:36px;
+margin-bottom:55px;
+color:#0f3d2e
+}
+
+/* SERVICES */
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:35px
+}
+.service{
+background:#fff;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+transition:.4s
+}
+.service:hover{transform:translateY(-12px)}
+.service img{width:100%;height:260px;object-fit:cover}
+.service div{padding:28px}
+.service h4{font-size:22px;margin-bottom:12px;color:#0f3d2e}
+.service p{font-size:16px;line-height:1.7;color:#333}
+
+/* STATS */
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+text-align:center
+}
+.stats div{
+background:#0f3d2e;
+color:#fff;
+padding:40px;
+border-radius:20px
+}
+.stats h4{font-size:38px;margin-bottom:10px}
+
+/* WHY */
+.why{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+text-align:center
+}
+.why div{
+background:#fff;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.07)
+}
+.why i{font-size:42px;color:#0f3d2e;margin-bottom:15px}
+
+/* TESTIMONIALS */
+.testimonials{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px
+}
+.testimonial{
+background:#0f3d2e;
+color:#fff;
+padding:35px;
+border-radius:20px;
+position:relative
+}
+.testimonial::before{
+content:'“';
+font-size:60px;
+position:absolute;
+top:10px;
+right:20px;
+opacity:.2
+}
+
+/* GALLERY */
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px
+}
+.gallery img{
+width:100%;
+border-radius:20px;
+transition:.4s
+}
+.gallery img:hover{transform:scale(1.06)}
+
+/* CONTACT */
+.contact{
+background:#0f3d2e;
+color:#fff;
+text-align:center;
+border-radius:30px;
+padding:80px 20px
+}
+.contact a{
+margin-top:30px;
+display:inline-block;
+background:#25D366;
+padding:20px 50px;
+border-radius:50px;
+font-size:22px;
+color:#fff;
+text-decoration:none;
+font-weight:bold
+}
+
+/* FOOTER */
+footer{
+background:#111;
+color:#bbb;
+text-align:center;
+padding:35px;
+margin-top:80px
+}
+
+/* FLOAT WHATSAPP */
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+left:20px;
+background:#25D366;
+color:#fff;
+padding:15px 18px;
+border-radius:50%;
+font-size:28px;
+z-index:999;
+text-decoration:none
+}
+</style>
+
+<script>
+document.addEventListener('contextmenu', e => e.preventDefault()); // منع الزر الأيمن
+document.addEventListener('selectstart', e => e.preventDefault()); // منع تحديد النصوص
+document.addEventListener('copy', e => e.preventDefault()); // منع النسخ
+document.addEventListener('dragstart', e => e.preventDefault()); // منع سحب العناصر
+</script>
+
+</head>
+
+<body>
+
+<header>
+<h1>هاني بن عبدالله</h1>
+<a href="https://wa.me/966547392519" target="_blank">
+<i class="fab fa-whatsapp"></i> واتساب
+</a>
+</header>
+
+<div class="hero">
+<img src="slide1.jpg" alt="تصاريح زواج">
+<img src="slide2.jpg" alt="معاملات رسمية">
+<img src="slide3.jpg" alt="التجنيس">
+
+<div class="hero-content">
+<h2>خدمات رسمية بثقة واحتراف</h2>
+<p>إنجاز تصاريح الزواج، التجنيس، والمعاملات الحكومية بأعلى معايير الموثوقية والسرعة</p>
+<a href="https://wa.me/966547392519" target="_blank">تواصل واتساب الآن</a>
+</div>
+</div>
+
+<section>
+<h3>خدماتنا</h3>
+<div class="services">
+  <div class="service">
+    <img src="service1.jpg">
+    <div>
+      <h4>تصاريح الزواج</h4>
+      <p>نقوم بمتابعة وإنهاء تصاريح الزواج داخل وخارج المملكة بشكل كامل، بدءًا من تجهيز المستندات اللازمة، وتقديم الطلبات الرسمية، وحتى الحصول على الموافقة النهائية بسرعة واحترافية عالية، مع الحرص على السرية التامة ومراعاة جميع الإجراءات القانونية والتأكد من صحة جميع المستندات لتجنب أي تأخير.</p>
+    </div>
+  </div>
+  <div class="service">
+    <img src="service2.jpg">
+    <div>
+      <h4>التجنيس</h4>
+      <p>نقدم استشارات ومتابعة شاملة لجميع معاملات التجنيس وفق الأنظمة المعمول بها، بداية من إعداد الملفات المطلوبة، وتقديم الطلبات إلى الجهات المختصة، وصولاً إلى الحصول على الموافقات الرسمية، مع مراعاة التوجيه القانوني الكامل لضمان إتمام المعاملة دون أي تأخير، مع متابعة كل خطوة حتى تسليم الوثائق النهائية.</p>
+    </div>
+  </div>
+  <div class="service">
+    <img src="service3.jpg">
+    <div>
+      <h4>المعاملات الحكومية</h4>
+      <p>ننجز جميع المعاملات الحكومية الرسمية بسرعة ودقة عالية، مع متابعة جميع الخطوات الإدارية المطلوبة، وتقديم استشارات عملية لضمان إتمام المعاملة بشكل نظامي وآمن، وتوفير الوقت والجهد للعملاء مع الالتزام بأعلى معايير الموثوقية والشفافية، مع تقديم الدعم الكامل عند أي استفسار.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section>
+<h3>أرقامنا تتحدث</h3>
+<div class="stats">
+<div><h4>+500</h4><p>معاملة منجزة</p></div>
+<div><h4>+10</h4><p>سنوات خبرة</p></div>
+<div><h4>98%</h4><p>رضا العملاء</p></div>
+</div>
+</section>
+
+<section>
+<h3>آراء العملاء</h3>
+<div class="testimonials">
+<div class="testimonial">تعامل راقٍ وسرعة غير متوقعة في الإنجاز.</div>
+<div class="testimonial">ثقة ومصداقية، أنصح بالتعامل.</div>
+<div class="testimonial">خدمة ممتازة ومتابعة مستمرة.</div>
+</div>
+</section>
+
+<section>
+<h3>معرض الصور</h3>
+<div class="gallery">
+<img src="slide1.jpg">
+<img src="slide2.jpg">
+<img src="slide3.jpg">
+<img src="service1.jpg">
+<img src="service2.jpg">
+<img src="service3.jpg">
+</div>
+</section>
+
+<section class="contact">
+<h3>تواصل معنا الآن</h3>
+<p>نحن جاهزون لخدمتك والرد على استفساراتك</p>
+<a href="https://wa.me/966547392519" target="_blank">
+<i class="fab fa-whatsapp"></i> واتساب مباشر
+</a>
+</section>
+
+<footer>
+© 2026 هاني بن عبدالله – جميع الحقوق محفوظة
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/966547392519" target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
